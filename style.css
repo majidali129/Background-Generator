@@ -1,0 +1,29 @@
+*,::after,::before{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+html{
+    font-family: serif;
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5em 1.1em;
+    font-size: 3vw;
+    font-weight: bold;
+    color: hsl(71, 94%, 48%);
+    background-image: linear-gradient(rgba(23, 131, 255, 0.615),rgba(200, 151, 60, 0.82));
+    cursor: pointer;
+
+}
